@@ -54,12 +54,12 @@ function displayWeather(data) {
         const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
 
         const temperatureHTML = `
-            <p>${temperature}°C</p>
+            <p style='color : black;' >${temperature}°C</p>
         `;
 
         const weatherHtml = `
-            <p>${cityName}</p>
-            <p>${description}</p>
+            <p  style='color : black;' >${cityName}</p>
+            <p  style='color : black;'>${description}</p>
         `;
 
         tempDivInfo.innerHTML = temperatureHTML;
